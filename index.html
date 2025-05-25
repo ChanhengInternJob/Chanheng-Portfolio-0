@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chanheng's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Chanheng Menh</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Chanheng Menh</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container section-extra">
+        <img src="./assets/chanheng.png" alt="Chanheng Menh profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Chanheng Menh</h1>
+        <p class="section__text__p2">DevOps Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Heav Seima-CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/github1.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/chanhengmenh', '_blank')"
+          />
+          <img
+            src="./assets/Linkedin5.png"
+            alt="My LinkedIN profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/chanheng-menh-945622270/', '_blank')"
+          />
+          <img
+            src="./assets/telegram.png"
+            alt="My Telegram profile"
+            class="icon"
+            onclick="window.open('https://t.me/imya_chanhengmenh', '_blank')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-me-containers">
+            <div class="details-container">
+              <img
+                src="./assets/profile.png"
+                alt="Skills icon"
+                class="icon"
+              />
+              <h3>Profile</h3>
+              <p>Aspiring DevOps Engineer<br/> Building cloud-native apps and CI/CD pipelines using Docker, Kubernetes, and AWS. </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>American University of Phnom Penh<br/> B.Sc. in Digital Infrastructure (2023 - Current) </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+            <div id="extra">
+              👋 Hey there! I'm a cloud computing undergraduate pursuing my B.Sc. in Digital Infrastructure at the American University of Phnom Penh. 
+              I'm deeply interested in automation, scalable infrastructure, and streamlining system operations.<br>
+            </div>
+
+            <div id="extra">
+              While I don't yet have formal industry skills, I've been gaining hands-on skills through DevOps-focused projects, lab environments,
+               and self-directed learning. I'm eager to contribute to real-world challenges and continuously refine my expertise in modern infrastructure practices.<br>
+            </div>
+
+              🚀 Currently focusing on: CI/CD pipelines, Docker, Kubernetes, and AWS<br>
+              🎯 Goal: To become a proficient DevOps engineer who enhances system reliability
+               and accelerates software delivery through automation and collaboration.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#certifications'"
+      />
+    </section>
+
+
+
+    <section id="certifications">
+      <p class="section__text__p1">My Learning Journey</p>
+      <h1 class="title">Certifications</h1>
+      <div class="certification-details-container">
+        <div class="certification-containers">
+
+
+        <div class="details-container cert-container">
+        <img
+          src="./assets/Coursera_Logo.png"
+          alt="Intro-to-DevOps"
+          class="cert-logo"
+        />
+        <h2 class="certification-title">Introduction to DevOps</h2>
+        <p class="cert-issuer">by IBM</p>
+        <p class="cert-date">Completed: January 19, 2025</p>
+        <p class="cert-description">an online non-credit course authorized by IBM and offered through Coursera</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 cert-btn"
+            onclick="window.open('https://coursera.org/share/49fcf2165c613eac81eb2cc6fd598619', '_blank')"
+          >
+            View Certificate
+          </button>
+        </div>
+      </div>
+
+
+      <div class="details-container cert-container">
+        <img
+          src="./assets/Coursera_Logo.png"
+          alt="Intro-to-DevOps"
+          class="cert-logo"
+        />
+        <h2 class="certification-title">Introduction to GitHub Actions</h2>
+        <p class="cert-issuer">by Duke University</p>
+        <p class="cert-date">Completed: May 7, 2025</p>
+        <p class="cert-description">an online non-credit project authorized by Duke University and 
+          offered through Coursera</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 cert-btn"
+            onclick="window.open('https://coursera.org/share/2ae0557d852689d6e13b4ad4fb738816', '_blank')"
+          >
+            View Certificate
+          </button>
+        </div>
+      </div>
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+
+
+    
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">AWS Academy Courses</h2>
+            <div class="article-container">
+
+            <div class="skills-0-details-container skills-container">
+              <img
+                src="./assets/AWS-Logo-white.png"
+                alt="Intro-to-DevOps"
+                class="cert-logo"
+              />
+              <h2 class="certification-title">AWS Academy Graduate - AWS Academy Cloud Foundation</h2>
+              <p class="cert-issuer">by Amazon Web Services Training and Certification</p>
+              <p class="cert-date">Completed:  June 23, 2024</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 cert-btn"
+                  onclick="window.open('https://www.credly.com/badges/5e194ed5-743e-42de-9c27-c353ce4c077a/public_url', '_blank')"
+                >
+                  View Badge
+                </button>
+              </div>
+            </div>
+
+            <div class="skills-0-details-container skills-container">
+              <img
+                src="./assets/AWS-Logo-white.png"
+                alt="Intro-to-DevOps"
+                class="cert-logo"
+              />
+              <h2 class="certification-title">AWS Academy Graduate - AWS Academy Cloud Architecting</h2>
+              <p class="cert-issuer">by Amazon Web Services Training and Certification</p>
+              <p class="cert-date">Completed:  November 26, 2024</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 cert-btn"
+                  onclick="window.open('https://www.credly.com/badges/3c8b34c2-8efc-4c84-b8a8-052e61b6d725/public_url', '_blank')"
+                >
+                  View Badge
+                </button>
+              </div>
+            </div>
+            
+            <div class="skills-0-details-container skills-container">
+              <img
+                src="./assets/AWS-Logo-white.png"
+                alt="Intro-to-DevOps"
+                class="cert-logo"
+              />
+              <h2 class="certification-title">AWS Academy Graduate - AWS Academy Cloud Developing</h2>
+              <p class="cert-issuer">by Amazon Web Services Training and Certification</p>
+              <p class="cert-date">Completed:  March 24, 2025</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 cert-btn"
+                  onclick="window.open('https://www.credly.com/badges/929c5bb4-3b1a-49e3-bf68-873fb82d6b60/public_url', '_blank')"
+                >
+                  View Badge
+                </button>
+              </div>
+            </div>            
+
+            <div class="skills-0-details-container skills-container">
+              <img
+                src="./assets/AWS-Logo-white.png"
+                alt="Intro-to-DevOps"
+                class="cert-logo"
+              />
+              <h2 class="certification-title">AWS Academy Graduate - AWS Academy Cloud Operations</h2>
+              <p class="cert-issuer">by Amazon Web Services Training and Certification</p>
+              <p class="cert-date">Completed:  April 07, 2025</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 cert-btn"
+                  onclick="window.open('https://www.credly.com/badges/c37555ba-d544-4632-af5d-54ea44c4eeab/public_url', '_blank')"
+                >
+                  View Certificate
+                </button>
+              </div>
+            </div>            
+
+
+            <!-- These are empty containers to ensure the size consistency -->
+            <div class="skills-0-details-container skills-container empty-container"></div>
+            <div class="skills-0-details-container skills-container empty-container"></div>
+
+          
+
+            
+            </div>
+          </div>
+          
+          
+          <div class="details-container">
+            <h2 class="skills-sub-title">Backend and API-related technologies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Languages & Frameworks:</h3>
+                  <p>JavaScript, Python, Node.js</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>API Design:</h3>
+                  <p>RESTful APIs</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Authentication:</h3>
+                  <p>JWT, OAuth</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Testing:</h3>
+                  <p>Supertest, Jest, pytest</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Relation Database:</h3>
+                  <p>MySQL, Amazon Aurora MySQL</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Non-Relation Datebase:</h3>
+                  <p>FireBase, MongoDB, Amazon DynamoDB</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tools:</h3>
+                  <p>POSTMAN, curl</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3> </h3>
+                  <p> </p>
+                </div>
+              </article>                             
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="skills-sub-title">DevOps & Tools</h2>
+            <div class="article-container">
+            <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Version Control:</h3>
+                  <p>Git, Github</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CI/CD:</h3>
+                  <p>Github Actions</p>
+                </div>
+              </article>
+
+                          <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Containerization</h3>
+                  <p>Docker</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Container Orchestration</h3>
+                  <p>Kubernetes</p>
+                </div>
+              </article>
+            </div>
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+
+  <section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="project-list-box" data-aos="fade-up">
+    <ul class="project-list">
+      <li>
+        <img src="./assets/github1.png" alt="GitHub" class="bullet-icon" />
+        <div>
+          <h2>Student Management System</h2>
+          <p><strong>A microservices-based application for managing student records. This system consists of multiple services:</strong></p>
+          <ul class="project-description">
+            <li><strong>API Gateway</strong>: Central entry point that routes requests to appropriate microservices</li>
+            <li><strong>Add Service</strong>: Handles adding new students</li>
+            <li><strong>Delete Service</strong>: Manages deletion of student records</li>
+            <li><strong>Update Service</strong>: Handles updating student information</li>
+            <li><strong>Update Api</strong>: Updates user profile (requires token)</li>
+          </ul>
+          <p><strong>Tech:</strong> JavaScript, Node.js (Express App), POSTMAN, Docker, Kubernetes, MongoDB</p>
+          <a href="https://github.com/Chanheng-Menh-cloud-academic-repo/cloud-native-final-project.git" target="_blank" class="github-link">View on GitHub</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="project-list-box" data-aos="fade-up">
+    <ul class="project-list">
+      <li>
+        <img src="./assets/github1.png" alt="GitHub" class="bullet-icon" />
+        <div>
+          <h2>CRUD Project</h2>
+          <p><strong>This application for managing student records. This system consists of multiple RESTful APIs:</strong></p>
+          <ul class="project-description">
+            <li><strong>Routes requests to the appropriate service</strong>: Routes requests to the appropriate service</li>
+            <li><strong>Add API</strong>: Handles adding new students</li>
+            <li><strong>Delete API</strong>: Manages deletion of student records</li>
+            <li><strong>Update API</strong>: Handles updating student information</li>
+            <li><strong>Search API</strong>: Provides search functionality for student records</li>
+          </ul>
+          <p><strong>Tech:</strong> JavaScript, NodeJS (Express App), POSTMAN, MongoDB</p>
+          <a href="https://github.com/Chanheng-Menh-cloud-academic-repo/cloud-native-microservice-2.git" target="_blank" class="github-link">View on GitHub</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="project-list-box" data-aos="fade-up">
+    <ul class="project-list">
+      <li>
+        <img src="./assets/github1.png" alt="GitHub" class="bullet-icon" />
+        <div>
+          <h2>Node.js API Gateway with Modular Services and JWT Authentication</h2>
+          <p><strong>API Gateway with Modular Services application for managing student records. This system consists of multiple RESTful APIs:</strong></p>
+          <ul class="project-description">
+            <li><strong>API Gateway</strong>: Central entry point that routes requests to appropriate microservices</li>
+            <li><strong>Registration Api</strong>: Handles adding new students</li>
+            <li><strong>Login Api</strong>: Authenticates users and returns a JWT token</li>
+            <li><strong>Search Api</strong>: Searches for user data (requires token)</li>
+            <li><strong>Update Api</strong>: Provides search functionality for student records</li>
+            <li><strong>Delete Api</strong>: Admin-only delete operation (requires token)</li>
+          </ul>
+          <p><strong>Tech:</strong> JavaScript, Node.js (Express App), JWT (JSON Web Token), POSTMAN</p>
+          <a href="https://github.com/Chanheng-Menh-cloud-academic-repo/cloud-native-20250131-project-1.git" target="_blank" class="github-link">View on GitHub</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="project-list-box" data-aos="fade-up">
+    <ul class="project-list">
+      <li>
+        <img src="./assets/github1.png" alt="GitHub" class="bullet-icon" />
+        <div>
+          <h2>Chatbot using Streamlit and Deepinfra Api</h2>
+          <p><strong>The stateless chatbot without database.
+             We can upload text files like pdf, csv, or text and we can ask information inside those files.</strong></p>
+          <!-- <ul class="project-description">
+            <li><strong>API Gateway</strong>: Central entry point that routes requests to appropriate microservices</li>
+            <li><strong>Registration Api</strong>: Handles adding new students</li>
+            <li><strong>Login Api</strong>: Authenticates users and returns a JWT token</li>
+            <li><strong>Search Api</strong>: Searches for user data (requires token)</li>
+            <li><strong>Update Api</strong>: Provides search functionality for student records</li>
+            <li><strong>Delete Api</strong>: Admin-only delete operation (requires token)</li>
+          </ul> -->
+          <p><strong>Tech:</strong> Python, Streamlit, Deepinfra</p>
+          <a href="https://github.com/chanhengmenh/CSB-Final.git" target="_blank" class="github-link">View on GitHub</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+    
+    
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:chanhengmenh@gmail.com">chanhengmenh@gmail.com</a></p>
+        </div>
+                <div class="contact-info-container">
+          <img
+            src="./assets/phone.png"
+            alt="Phone icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="tel:+85570494393 ">(+855) 70494393</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github1.png"
+            alt="Github icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/chanhengmenh" target="_blank" rel="noopener noreferrer">Github</a></p>
+        </div>
+                <div class="contact-info-container">
+          <img
+            src="./assets/linkedin5.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/chanheng-menh-945622270/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        </div>
+                <div class="contact-info-container">
+          <img
+            src="./assets/telegram.png"
+            alt="telegram icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://t.me/imya_chanhengmenh" target="_blank" rel="noopener noreferrer">Telegram</a></p>
+
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p id="footer-copyright"></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
